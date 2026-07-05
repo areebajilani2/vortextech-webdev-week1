@@ -4,8 +4,8 @@ A single-page personal portfolio site built with plain HTML5 and CSS3, as part o
 VortexTech Web Development Internship, Week 1 (Beginner).
 
 ## What's included
-- `index.html` — page structure: Header, About, Skills, Contact, Footer (semantic tags)
-- `style.css` — all styling (no inline styles), including a Flexbox layout for the skills
+- `index.html` — page structure: Header, About, Skills, Contact, Footer 
+- `style.css` — all styling , including a Flexbox layout for the skills
   list, a consistent 3-color scheme, and a media query for mobile responsiveness
 
 ## How to run it
