@@ -1,0 +1,108 @@
+/* ---------- Color scheme ----------
+   Dark blue:  #1b2a4a  (header/footer background)
+   Teal:       #2d9d92  (accents, links)
+   Off-white:  #f4f6f8  (page background)
+------------------------------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #1b2a4a;
+  line-height: 1.6;
+}
+
+/* ---------- Header ---------- */
+.site-header {
+  background-color: #1b2a4a;
+  color: #ffffff;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.site-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.site-header .subtitle {
+  color: #2d9d92;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+/* ---------- Sections ---------- */
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+section h2 {
+  color: #1b2a4a;
+  border-bottom: 3px solid #2d9d92;
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+/* ---------- Skills (Flexbox layout) ---------- */
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skills-list li {
+  background-color: #2d9d92;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+}
+
+/* ---------- Contact ---------- */
+.contact a {
+  color: #2d9d92;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.contact p {
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  background-color: #1b2a4a;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+}
+
+/* ---------- Responsive: mobile ---------- */
+@media (max-width: 600px) {
+  .site-header h1 {
+    font-size: 1.8rem;
+  }
+
+  section {
+    padding: 1.5rem 1rem;
+  }
+
+  .skills-list {
+    justify-content: center;
+  }
+}
